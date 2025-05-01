@@ -8,4 +8,4 @@ RUN rm -rf /usr/share/nginx/html/*
 COPY . /usr/share/nginx/html
 
 # Порт 80 вже відкритий у базовому образі nginx
-# EXPOSE 80
+EXPOSE 80
