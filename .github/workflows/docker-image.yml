@@ -24,4 +24,3 @@ jobs:
         context: .
         push: true
         tags: andriimytiev/mzuiit-lab:latest
-        no-cache: true
