@@ -12,11 +12,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      ### 🟢 ЗМІНИ: Встановлення htmlhint
+      ### Встановлення htmlhint
       - name: Install htmlhint
         run: npm install -g htmlhint
 
-      ### 🟢 ЗМІНИ: Запуск htmlhint для перевірки HTML
+      ### Запуск htmlhint для перевірки HTML
       - name: Run HTML linter
         run: htmlhint index.html
 
